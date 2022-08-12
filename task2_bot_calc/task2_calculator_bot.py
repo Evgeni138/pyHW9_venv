@@ -1,7 +1,7 @@
 from telegram import Bot, Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, ConversationHandler
 
-updater = Updater(token= '5497725035:AAHS5ghEr6JLosHTKWo8GBHETuoTLJivbaQ')
+updater = Updater(token= 'TOKEN')
 
 def log(update, context):
     file = open('logger.csv', 'a')
